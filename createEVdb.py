@@ -51,8 +51,8 @@ def main():
 	database = "chargePoint.db"
 
 	### Note 4: insert your organization's username and password below
-	username = ""
-	password = ""
+	username = "70743d9b580b967c194d1ee81eadfe0e67b4e1727f1701739907442"
+	password = "e945eb72918dd00d036e9eb7925442f5"
 
 	wsdl_url = "https://webservices.chargepoint.com/cp_api_5.0.wsdl"
 	client = Client(wsdl_url, wsse=UsernameToken(username, password))
